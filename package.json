@@ -1,5 +1,12 @@
 {
+  "scripts": {
+    "cypress:open": "cypress open",
+    "start": "node server.js"
+  },
   "devDependencies": {
     "cypress": "^13.6.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
